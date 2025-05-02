@@ -148,7 +148,6 @@
 
 </project>
  -->
-
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -227,7 +226,7 @@
 
 	<build>
 		<plugins>
-			<!-- Java Compiler -->
+			<!-- Java Compiler Plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -237,7 +236,7 @@
 				</configuration>
 			</plugin>
 
-			<!-- JAR Plugin: make JAR executable -->
+			<!-- Executable JAR Plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -251,7 +250,7 @@
 				</configuration>
 			</plugin>
 
-			<!-- Surefire for Unit Testing -->
+			<!-- Surefire Plugin for JUnit -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -263,7 +262,7 @@
 				</configuration>
 			</plugin>
 
-			<!-- Checkstyle -->
+			<!-- Checkstyle Plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
@@ -283,7 +282,7 @@
 				</configuration>
 			</plugin>
 
-			<!-- JavaFX Maven Plugin for Run -->
+			<!-- JavaFX Plugin -->
 			<plugin>
 				<groupId>org.openjfx</groupId>
 				<artifactId>javafx-maven-plugin</artifactId>
@@ -292,7 +291,6 @@
 					<mainClass>app.GUI</mainClass>
 				</configuration>
 			</plugin>
-
 		</plugins>
 	</build>
 </project>
