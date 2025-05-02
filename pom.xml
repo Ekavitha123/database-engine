@@ -7,6 +7,7 @@
 	<artifactId>Database-Engine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
+	<mainClass>app.MainCLI</mainClass>
 
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
