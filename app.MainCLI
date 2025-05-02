@@ -1,0 +1,8 @@
+package app;
+
+public class MainCLI {
+    public static void main(String[] args) {
+        System.out.println("CLI version of the database engine running...");
+        // Add backend logic here
+    }
+}
